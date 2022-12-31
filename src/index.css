@@ -1,0 +1,109 @@
+
+/* body {
+  margin: 0;
+  /* background-image: "url(" + tropical + ")" */
+  /* background-image: url('../assets/tropical.png');
+  background-size:contain;
+  background-position:top;
+  background: cover; 
+} */
+
+/* <img src="/background.jpg" /> */
+/* .background {
+  background-image: url("./assets/tropical.png");
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+body {
+  /* text-align: right; */
+  background-image: url("./assets/tropical.png");
+  width: 70%; /* Set a fixed width for the body element */ 
+  margin: 0 auto; /* Center the body element within its parent */ 
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .background{
+  width: 800px;
+} */
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #82828900;
+  padding: 0;
+  text-align: right;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  
+}
+.content {
+  margin-top: 10%;
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.titre{
+  text-align: center;
+  color: rgb(242, 234, 234);
+  text-decoration: underline;
+}
+.content h1 {
+  padding: 0;
+  
+  margin: 0;
+  color: rgb(119, 116, 116);
+  margin-bottom: 3%;
+}
+.content p {
+  padding: 0;
+  margin: 0;
+  color: rgb(59, 59, 59);
+}
+.content li {
+  margin-bottom: 10px;
+}
+/* .content{
+  background-color: #FFF;
+} */
+/* .active {
+  background-color: #cdcbdc;
+  border-radius: 500%;
+  
+} */
+
+.form{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.formbody{
+  width: 100;
+  display: flex;
+  justify-content: center;
+}
+.background{
+  width: 800px;
+}
