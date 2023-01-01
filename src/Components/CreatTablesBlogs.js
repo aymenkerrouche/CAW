@@ -11,7 +11,7 @@ function createData(subject, description, date) {
 }
 
 const rows = [
-  createData('Mondial', 'Qatar 2022 best mondial ever', '22-12-2022'),
+  createData('Mondial', 'Qatar 2022 is best mondial ever', '22-12-2022'),
 ];
 
 function CreatTables() {
