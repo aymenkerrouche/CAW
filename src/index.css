@@ -21,22 +21,14 @@ code {
 
 
 body {
-  /* text-align: right; */
   background-image: url("./assets/tropical.png");
-  width: 70%; /* Set a fixed width for the body element */ 
-  margin: 0 auto; /* Center the body element within its parent */ 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
+  width: 70%; 
+  margin: 0 auto; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* .background{
-  width: 800px;
-} */
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
@@ -64,6 +56,8 @@ ul.header li a {
   padding: 50px;
   text-align: center;
   margin-bottom: 10%;
+  border : solid #0b7e4a;
+  border-radius: 30px;
 }
 .titre{
   text-align: center;
@@ -72,10 +66,10 @@ ul.header li a {
 }
 .content h1 {
   padding: 0;
-  
   margin: 0;
   color: rgb(119, 116, 116);
   margin-bottom: 3%;
+  
 }
 .content p {
   padding: 0;
@@ -97,6 +91,7 @@ ul.header li a {
 .form{
   margin-left: 25%;
   margin-right: 25%;
+  
 }
 
 .formbody{

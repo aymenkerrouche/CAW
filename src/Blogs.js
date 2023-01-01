@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ToggleButton from "./Components/ButtonBlogs";
+import ToggleButton from "./Components/createBlog";
 class Blogs extends Component {
   render() {
     return (

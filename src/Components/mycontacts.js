@@ -15,7 +15,7 @@ const rows = [
   createData('Aya bouhelais', '0551258237', 'aymenkerrouche00@gmail.com'),
 ];
 
-function CreatTables() {
+function MyContacts() {
   return (
     <TableContainer >
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -36,7 +36,8 @@ function CreatTables() {
               <TableCell>{row.phone}</TableCell>
               <TableCell >{row.email}</TableCell>
             </TableRow>
-          ))}
+          ))
+          }
         </TableBody>
       </Table>
     </TableContainer>
@@ -44,6 +45,6 @@ function CreatTables() {
 }
 
 
-export default CreatTables;
+export default MyContacts;
 export const row = rows;
 export const createdata = createData;

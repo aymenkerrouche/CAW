@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Button from '@mui/material/Button';
-import AddIcon from '@mui/icons-material/PersonAdd';
+import AddIcon from '@mui/icons-material/AddCard';
 import Add from '@mui/icons-material/Add';
 import ContactIcon from '@mui/icons-material/List';
-import CreatTables from "./CreatTablesBlogs";
+import CreatTables from "./myposts";
 import TextField from '@mui/material/TextField';
 import { Divider, Box } from "@mui/material";
-import {row, createdata} from './CreatTablesBlogs';
+import {row, createdata} from './myposts.js';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from 'dayjs';

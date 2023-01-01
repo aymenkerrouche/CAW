@@ -6,10 +6,10 @@ import ContactIcon from '@mui/icons-material/List';
 import Person from '@mui/icons-material/Person';
 import Email from '@mui/icons-material/Email';
 import Phone from '@mui/icons-material/Phone';
-import CreatTables from "./CreatTables";
+import MyContacts from "./mycontacts";
 import TextField from '@mui/material/TextField';
 import { Divider, InputAdornment, Box } from "@mui/material";
-import {row, createdata} from './CreatTables';
+import {row, createdata} from './mycontacts';
 
 function ToggleButton() {
     const[toggle,setToggle]= useState(false);
@@ -47,14 +47,14 @@ function ToggleButton() {
                 endIcon={<AddIcon />} 
                 onClick = {()=>addContacts(toggle)}
                 sx={{width: 220, marginRight: 3,}}
-            >Add contact</Button>:
+            >Create Contact</Button>:
 
             <Button 
                 variant= "outlined" 
                 endIcon={<AddIcon />} 
                 onClick = {()=>addContacts(toggle)}
                 sx={{width: 220,marginRight: 3,}}
-            >Add contact</Button>
+            >Create Contact</Button>
         }
 
         { toggle ? 
@@ -130,7 +130,7 @@ function ToggleButton() {
 
             </div>
             :
-            <CreatTables/>
+            <MyContacts/>
         }
         </div>
     </div>
