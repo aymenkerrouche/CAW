@@ -33,16 +33,16 @@ function ToggleButton() {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
         console.log({
-        subject: data.get('subject'),
-        description: data.get('description'),
-        ok: data.get('date'),
+            subject: data.get('subject'),
+            description: data.get('description'),
+            ok: data.get('date'),
         });
         var day = date.get('date');
         var month = date.get('month')+1;
         var year = date.get('year');
 
         var d = ""+day+"-"+month+"-"+year+"";
-        row.push(createdata(data.get('subject'),data.get('description'),d),);
+        row.push(createdata(data.get('subject'),data.get('description'),d,0),);
         displayBlogs(toggle);
     }
 
